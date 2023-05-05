@@ -1,0 +1,198 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: darkslategray;
+}
+.h{
+  color: blue;
+  font-size: larger;
+  text-align: center;
+  margin: 10px auto;
+  margin-top: 10px;
+}
+.one{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 750px;
+  padding: 15px;
+  margin-top: 30px;
+  background-color: yellow;
+  box-shadow: 6px 10px 3px 7px rgb(255, 196, 0), 10px 10px 8px 8px rgb(166, 255, 0)
+}
+.one::before{
+  content: "الشمس";
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+.hr{
+  border-color: black;
+  width: 100px;
+  margin-left: 720px;
+  border-style: dotted;
+  transform: rotate(-30deg);
+  margin-top: 30px;
+  border-width: 5px;
+}
+.tow{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 700px;
+  padding: 15px;
+  margin-top: 35px;
+  background-color: blueviolet;
+  box-shadow: 0px 5px 0px 2px rgb(204, 0, 255), 0px 2px 8px 8px rgb(255, 0, 132)
+}
+.tow::after{
+  content: "عطارد";
+  margin-top: 50px;
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+}
+.rh{
+  border-color: black;
+  width: 100px;
+  margin-left: 650px;
+  border-style: dotted;
+  transform: rotate(-28deg);
+  margin-top: 30px;
+  border-width: 5px;
+}
+.ther{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 600px;
+  padding: 15px;
+  margin-top: 30px;
+  background-color: rgb(217, 14, 82);
+  box-shadow: 0px 5px 0px 2px rgb(255, 0, 85), 0px 2px 8px 8px rgb(217, 132, 176)
+}
+.ther::before{
+  content: "زهرة";
+  margin-top: 50px;
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+}
+.rha{
+  border-color: black;
+  width: 100px;
+  margin-left: 550px;
+  border-style: dotted;
+  transform: rotate(-28deg);
+  margin-top: 30px;
+  border-width: 5px;
+}
+.for{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 500px;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: cornflowerblue;
+  box-shadow: 0px 5px 0px 2px rgb(56, 56, 125), 0px 2px 8px 8px rgb(85, 180, 85)
+}
+.for::after{
+  content: "الارض";
+  margin-top: 50px;
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+}
+.fiv{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-left: 400px;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: red;
+  box-shadow: 0px 5px 0px 2px rgb(172, 77, 98), 0px 2px 8px 8px rgb(133, 59, 75)
+}
+.fiv::after{
+  content: "المريخ";
+  margin-top: 50px;
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+}
+.su{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 250px;
+  padding: 15px;
+  margin-top: -10px;
+  background-color:brown;
+  box-shadow: 0px 0px 0px 2px rgb(172, 77, 98), 0px 2px 3px 8px rgb(133, 59, 75)
+}
+.su::before{
+  content: "المشترى";
+  margin-top: 80px;
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+}
+.zz{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-left: 450px;
+  padding: 25px;
+  margin-top: -50px;
+  background-color:burlywood;
+  box-shadow: 0px 0px 0px 2px rgb(182, 148, 156), 0px 2px 3px 8px rgb(180, 155, 48)
+}
+.zz::before {
+  content: "زحل";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid;
+  border-color:transparent rgb(135, 69, 82) crimson transparent;
+  transition: 
+}
+.or{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin-left: 600px;
+  padding: 25px;
+  margin-top: -50px;
+  background-color:blue;
+  box-shadow: 0px 0px 0px 2px rgb(61, 93, 163), 0px 2px 3px 8px rgb(58, 45, 137)
+}
+.or::before{
+  content: "اورانوس" ;
+  margin-top: 80px;
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+}
+.n{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin-left: 700px;
+  padding: 25px;
+  margin-bottom: -50px;
+  background-color:blue;
+}
+.n::before{
+content: "نبيتون";
+margin-top: 80px;
+text-align: left;
+font-size: large;
+font-weight: bold;
+}
+  
